@@ -21,6 +21,7 @@ merge_capability = {**capability, **device_info.get_device_info()}
 
 
 def get_driver() -> WebDriver:
+    """Define y configura el driver de Appium para la sesión de pruebas."""
     return webdriver.Remote(
         os.environ.get('BASE_URL'), options=UiAutomator2Options().load_capabilities(merge_capability)
     )
