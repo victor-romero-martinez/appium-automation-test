@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env
+.env.bak/
+.venv/
+.Python
+
+# IDEs
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+.history/
+
+# Testing
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# Reports
+reports/
+*.log
+*.xml
+*.json
+*.html
+
+# Appium logs/screenshots/videos
+screenshots/
+*.png
+*.mp4
+
+# APKs or app binaries
+resources/*.apk
+*.ipa
+*.app
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+*.bak
+
+# Jupyter notebooks (if used)
+.ipynb_checkpoints/
+
+# Allure results (if used)
+allure-results/
+allure-report/
